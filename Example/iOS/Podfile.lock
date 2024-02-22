@@ -1,0 +1,33 @@
+PODS:
+  - ThinkingDataCore (1.0.1):
+    - ThinkingDataCore/Main (= 1.0.1)
+  - ThinkingDataCore/iOS (1.0.1)
+  - ThinkingDataCore/Main (1.0.1):
+    - ThinkingDataCore/iOS
+    - ThinkingDataCore/OSX
+  - ThinkingSDK (3.0.1):
+    - ThinkingSDK/Main (= 3.0.1)
+  - ThinkingSDK/iOS (3.0.1):
+    - ThinkingDataCore (= 1.0.1)
+  - ThinkingSDK/Main (3.0.1):
+    - ThinkingSDK/iOS
+    - ThinkingSDK/OSX
+
+DEPENDENCIES:
+  - ThinkingSDK (from `../../`)
+
+SPEC REPOS:
+  trunk:
+    - ThinkingDataCore
+
+EXTERNAL SOURCES:
+  ThinkingSDK:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  ThinkingDataCore: 1ef8b754e80718e0533503d95045ab8a7e3ea6b3
+  ThinkingSDK: e8eff32a9a91e43e673643398952ac45bfbbddae
+
+PODFILE CHECKSUM: 3876d2590dc832f00e9d4e33688fc85a9cffd110
+
+COCOAPODS: 1.12.1
